@@ -28,3 +28,30 @@ For each detected action potential, we define a pre-spike window placed immediat
 In parallel, we sample baseline windows of identical duration from periods in which no action potential occurs and no spike follows within a predefined safety margin. These baseline windows represent membrane potential fluctuations not associated with imminent spike generation.
 By comparing feature distributions between pre-spike and baseline windows across cell types and time scales, we quantify whether simple subthreshold features can reliably distinguish spiking from non-spiking states.
 Figure 4 shows example feature distributions for pre-spike and baseline windows, illustrating how these features separate spiking and non-spiking membrane states.
+
+::::{grid} 1 2 2 2
+
+:::{card}
+:header: EXC Neurons
+Excitatory pyramidal neurons show slower pre-spike buildup and higher variability.
+Explore how predictability depends on ISI and time scale.
+:::
+
+:::{card}
+:header: PV Interneurons
+Fast-spiking interneurons exhibit steep slopes and low variability, enabling
+precise spike timing.
+:::
+
+:::{card}
+:header: SST Neurons
+SST interneurons display integrative dynamics and distinct ISI dependence.
+:::
+
+:::{card}
+:header: VIP Neurons
+VIP interneurons show unique pre-spike signatures linked to disinhibitory roles.
+:::
+::::
+
+
