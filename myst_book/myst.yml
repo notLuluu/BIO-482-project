@@ -2,7 +2,8 @@
 version: 1
 project:
   id: 9be8c533-2105-4822-94b9-e9ed9b67eeaf
-  # title:
+  title: Bio482
+  type: book
   # description:
   # keywords: []
   # authors: []
